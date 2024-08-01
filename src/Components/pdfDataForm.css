@@ -1,0 +1,105 @@
+/* ProjectCharter.css */
+.container {
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+.table-bordered td,
+.table-bordered th {
+  border: 1px solid #dee2e6;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.header-row {
+  background-color: #003366; /* Change to your desired header color */
+  color: white;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.label-cell {
+  flex: 0 0 50%;
+  background-color: #e6f7ff; /* Change to your desired label cell color */
+  padding: 10px;
+}
+
+.input-cell {
+  flex: 1;
+  padding: 10px;
+}
+
+.text-cell {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #000; /* Change to your desired text color */
+}
+
+.header-row h4 {
+  margin: 0;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #003366; /* Change to your desired header color */
+  color: white;
+}
+tr > td {
+  text-align: left;
+}
+.largeTB{
+  min-height: 400px;
+}
+.bigTB{
+    min-height: 200px;
+}
+.smallTB{
+    min-height: 60px;
+}
+
+.custom-mini-table-one {
+  background-color: #ffffff; /* Light blue color */
+}
+.custom-mini-table-one th {
+  background-color: #ffffff; /* Change to your desired header color */
+  height: 35px;
+}
+
+.custom-mini-table-one td {
+  background-color: #e0f7fa; /* Light blue color */
+  height: 30px;
+}
+
+.custom-mini-table-two {
+  background-color: #ffffff; /* Light blue color */
+}
+.custom-mini-table-two th {
+  background-color: #ffffff; /* Change to your desired header color */
+  height: 35px;
+}
+
+.custom-mini-table-two td {
+  background-color: #e0fae6; /* Light blue color */
+  height: 30px;
+}
